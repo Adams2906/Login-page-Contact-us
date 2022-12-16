@@ -1,0 +1,51 @@
+
+.Skills-section{
+    margin:20px; 
+    margin-top: 100px;
+     display: inline-block;
+}
+
+.skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    width: 1000px; 
+    height: 400px;
+
+}
+
+.div-vue{
+    background-color:rgba(209, 209, 209, 0.432); 
+    display: flex ; 
+    align-items: center;
+    margin: 10px; 
+    border-radius: 15px;
+}
+
+.skills-logo{
+    margin:20px; 
+    width: 60px; 
+    border-radius: 60px; 
+}
+
+.skill-name{
+    margin: 0px; 
+    font-size: 24px; 
+    font-weight: 700;
+}
+
+.skill-complete{
+    margin-top: 2px; 
+    margin-bottom: 5px; 
+    font-size: 16px;
+    color: rgba(37, 37, 37, 0.507);
+}
+
+.skill-rate{
+    margin-top: 8px; 
+    width: 250px; 
+    font-size: 14px;
+}
+
+p{
+    font-family: sans-serif;
+}
